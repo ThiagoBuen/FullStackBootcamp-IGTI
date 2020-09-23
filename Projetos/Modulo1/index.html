@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Prático 1 - Gerador RGB</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Gerador RGB - Projeto 1</h1>
+    <form>
+      <label>(R) Red: </label>
+      <input id="inputRed" type="range" min="0" max="255" step="1" />
+      <input id="inputValueRed" type="text" disabled />
+    </form>
+    <form>
+      <label>(G) Green: </label>
+      <input id="inputGreen" type="range" min="0" max="255" step="1" />
+      <input id="inputValueGreen" type="text" disabled />
+    </form>
+    <form>
+      <label>(B) Blue: </label>
+      <input id="inputBlue" type="range" min="0" max="255" step="1" />
+      <input id="inputValueBlue" type="text" disabled />
+    </form>
+
+    <div id="changeColor"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
