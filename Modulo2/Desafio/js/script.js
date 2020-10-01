@@ -48,7 +48,7 @@ async function fetchCountries() {
       flag,
     };
   });
-
+  console.log(allCountries);
   render();
 }
 

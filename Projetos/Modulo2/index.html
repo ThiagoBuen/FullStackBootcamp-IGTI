@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio - Módulo 2</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Pesquisa de usuários</h1>
+    <div class="inputDiv">
+      <input type="text" value="Busca" id="inputNameSearch" />
+      <input type="submit" value="Buscar" />
+    </div>
+    <div class="userFiltered">
+      <h3 id="userCountMessage">Nenhum usuário filtrado</h3>
+      <div id="tabFoundUsers"></div>
+    </div>
+    <div class="statisticalList">
+      <h3>Estatísticas</h3>
+      <div id="tabStatistics">
+        <h5>Sexo masculino: <span id="totalMaleCount"></span></h5>
+        <h5>Sexo feminino: <span id="totalFemaleCount"></span></h5>
+        <h5>Soma das idades: <span id="totalAge"></span></h5>
+        <h5>Média das idades: <span id="ageAverage"></span></h5>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
