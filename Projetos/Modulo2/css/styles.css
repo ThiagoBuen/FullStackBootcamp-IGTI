@@ -1,0 +1,48 @@
+body {
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.page-container {
+  display: flex;
+}
+
+.userFiltered,
+.statisticalList {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.userFiltered {
+  width: 75%;
+}
+
+.statisticalList {
+  width: 25%;
+  height: 100%;
+}
+
+.userFiltered .userCountMessage {
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  font: 700 2.4rem Archivo;
+}

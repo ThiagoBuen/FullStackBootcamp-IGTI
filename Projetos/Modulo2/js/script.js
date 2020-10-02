@@ -56,10 +56,12 @@ function enableSubmit(event) {
 }
 
 function filterUsers() {
-  let inputName = inputNameSearch.value;
-  //console.log(inputName);
+  let inputName = inputNameSearch.value.toLowerCase();
+  console.log(inputName);
   //console.log(allUsers.forEach((user) => console.log(user.name)));
-  filteredUsers = allUsers.filter((user) => user.name.includes(inputName));
+  filteredUsers = allUsers.filter((user) =>
+    user.name.toLowerCase().includes(inputName)
+  );
   console.log(filteredUsers);
   render();
 }
@@ -71,6 +73,9 @@ function render() {
 }
 
 function filterRender() {
+  filteredUsers.sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
   let filterUsersHTML = '<div>';
   filteredUsers.forEach((user) => {
     const { name, gender, picture, age } = user;
@@ -82,6 +87,7 @@ function filterRender() {
         <div>
           ${name} , ${age} anos
         </div>
+      </div>
     `;
     filterUsersHTML += filterUserHTML;
   });
