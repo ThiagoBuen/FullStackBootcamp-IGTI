@@ -9,11 +9,11 @@
   <body>
     <h1>Pesquisa de usuários</h1>
     <div class="inputDiv">
-      <input type="text" value="Busca" id="inputNameSearch" />
-      <input type="submit" value="Buscar" />
+      <input type="text" id="inputNameSearch" />
+      <input type="submit" value="Buscar" id="submitFilter" disabled />
     </div>
     <div class="userFiltered">
-      <h3 id="userCountMessage">Nenhum usuário filtrado</h3>
+      <h3><span id="userCountMessage"> Nenhum usuário filtrado</span></h3>
       <div id="tabFoundUsers"></div>
     </div>
     <div class="statisticalList">
