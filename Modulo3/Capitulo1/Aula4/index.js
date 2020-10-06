@@ -8,4 +8,24 @@ for (let i = 0; i < numero; i++) {
   }
 }
 
+function example(n1, n2 = 20) {
+  return n1 + n2 / 4;
+}
+
+function p4() {
+  let interval = null;
+  let i = 0;
+  let array = [];
+  interval = setInterval(() => {
+    array.push(i++);
+    if (i == 5) {
+      clearInterval(interval);
+      console.log(array);
+    }
+  }, 1000);
+}
+
+p4();
+console.log(example(10));
+
 console.log(multiplos);
