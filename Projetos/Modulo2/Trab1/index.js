@@ -32,7 +32,14 @@ function createStatesJson() {
       return filtro.Nome;
     });
     //console.log(filteredCidade);
-    fs.writeFile(estado.Nome.split(' ').join('') + '.json', filteredCidade);
+
+    filteredCidade = JSON.stringify(filteredCidade);
+
+    fs.writeFile(
+      estado.Nome.split(' ').join('') + '.json',
+      filteredCidade,
+      'utf-8'
+    );
   });
   //
   // console.log('****');
