@@ -1,6 +1,7 @@
 import express from 'express';
 import accountsRouter from './Routes/accounts.js';
 import { promises as fs } from 'fs';
+import router from './Routes/accounts.js';
 
 const { readFile, writeFile } = fs;
 
