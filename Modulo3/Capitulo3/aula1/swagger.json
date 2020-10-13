@@ -1,0 +1,116 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "My bank API .",
+    "version": "1.0.0",
+    "title": "Bank API",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "apiteam@swagger.io"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host": "petstore.swagger.io",
+  "basePath": "/v2",
+  "tags": [
+    {
+      "name": "account",
+      "description": "Account management",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "http://swagger.io"
+      }
+    },
+    {
+      "name": "store",
+      "description": "Access to Petstore orders"
+    },
+    {
+      "name": "user",
+      "description": "Operations about user",
+      "externalDocs": {
+        "description": "Find out more about our store",
+        "url": "http://swagger.io"
+      }
+    }
+  ],
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "/account": {
+      "get": {
+        "tags": [
+          "account"
+        ],
+        "summary": "Gets the existing accounts registered on the Bank database.",
+        "description": "Gets the existing accounts registered on the Bank database.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Account"
+              }
+            }
+          },
+          "400": {
+            "description": "Error occurred"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "account"
+        ],
+        "summary": "Creates a new account",
+        "description": "Creates a new account upon receiving the required parameters",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Account object",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Account"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Account created"
+          },
+          "400": {
+            "description": "Error occurred"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Account": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "JP"
+        },
+        "balance": {
+          "type": "integer",
+          "example": 750.55
+        }
+      }
+    }
+  }
+}

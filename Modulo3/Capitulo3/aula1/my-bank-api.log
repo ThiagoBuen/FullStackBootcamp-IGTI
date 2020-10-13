@@ -50,3 +50,26 @@
 2020-10-13T20:17:33.094Z [my-bank-api] info: API Started and File Found!
 2020-10-13T20:17:51.793Z [my-bank-api] info: API Started and File Found!
 2020-10-13T20:18:22.296Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:18:29.982Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:25:39.724Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:25:44.190Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:25:58.875Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:26:38.524Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:26:52.846Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:27:08.963Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:27:26.441Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:27:57.892Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:28:09.108Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:28:44.267Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:29:41.743Z [my-bank-api] info: GET /account
+2020-10-13T21:33:55.103Z [my-bank-api] info: GET /account
+2020-10-13T21:34:35.010Z [my-bank-api] info: GET /account
+2020-10-13T21:34:36.203Z [my-bank-api] info: GET /account
+2020-10-13T21:36:50.887Z [my-bank-api] info: API Started and File Found!
+2020-10-13T21:37:04.237Z [my-bank-api] info: GET /account
+2020-10-13T21:37:09.459Z [my-bank-api] info: GET /account
+2020-10-13T21:37:12.823Z [my-bank-api] info: GET /account
+2020-10-13T21:37:14.874Z [my-bank-api] info: GET /account
+2020-10-13T21:37:15.618Z [my-bank-api] info: GET /account
+2020-10-13T21:37:34.184Z [my-bank-api] info: POST /account - {"id":7,"name":"Teste","balance":350}
+2020-10-13T21:37:41.760Z [my-bank-api] info: GET /account
