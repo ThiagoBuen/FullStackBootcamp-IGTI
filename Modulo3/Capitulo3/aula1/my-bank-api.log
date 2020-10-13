@@ -1,0 +1,52 @@
+2020-10-13T19:54:03.071Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:56:38.228Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:56:47.433Z [my-bank-api] error:  GET /account -  ENOENT: no such file or directory, open 'C:\Users\thiag\OneDrive\Documentos\IGTI-Bootcamp\Modulo3\Capitulo3\aula1\accounts.json'
+2020-10-13T19:57:34.216Z [my-bank-api] info: API Started and File Created!
+2020-10-13T19:57:50.002Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:58:31.450Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:58:51.608Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:58:57.804Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:59:23.483Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:59:28.000Z [my-bank-api] info: API Started and File Found!
+2020-10-13T19:59:45.339Z [my-bank-api] info: GET /account
+2020-10-13T20:00:26.992Z [my-bank-api] info: POST /account - {"id":1,"name":"JP","balance":4000}
+2020-10-13T20:00:31.111Z [my-bank-api] info: GET /account
+2020-10-13T20:00:38.847Z [my-bank-api] info: GET /account/:id "1"
+2020-10-13T20:03:45.152Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:03:58.734Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:04:00.049Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:04:41.532Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:05:06.779Z [my-bank-api] info: POST /account - {"id":2,"name":"JP","balance":0}
+2020-10-13T20:05:14.677Z [my-bank-api] error:  POST /account -  Name e Balance são obrigatórios
+2020-10-13T20:05:25.298Z [my-bank-api] error:  POST /account -  Name e Balance são obrigatórios
+2020-10-13T20:05:30.223Z [my-bank-api] error:  POST /account -  Name e Balance são obrigatórios
+2020-10-13T20:05:54.071Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:06:20.279Z [my-bank-api] info: POST /account - {"id":3,"name":"JP","balance":302541,"ansdas":"JP"}
+2020-10-13T20:06:25.238Z [my-bank-api] info: GET /account
+2020-10-13T20:07:42.309Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:07:49.830Z [my-bank-api] info: POST /account - {"id":4,"name":"JP","balance":302541,"ansdas":"JP"}
+2020-10-13T20:08:05.329Z [my-bank-api] info: GET /account
+2020-10-13T20:08:50.462Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:09:02.952Z [my-bank-api] info: PUT /account - {"id":4,"name":"JP","balance":302541,"ansdas":"JP"}
+2020-10-13T20:09:08.291Z [my-bank-api] info: GET /account
+2020-10-13T20:09:20.913Z [my-bank-api] info: POST /account - {"id":5,"name":"JP","balance":302541}
+2020-10-13T20:09:25.351Z [my-bank-api] info: GET /account
+2020-10-13T20:09:44.293Z [my-bank-api] info: POST /account - {"id":6,"name":"JP","balance":302541}
+2020-10-13T20:09:49.066Z [my-bank-api] info: GET /account
+2020-10-13T20:12:59.192Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:13:38.129Z [my-bank-api] error:  PUT /account -  Registro não encontrado
+2020-10-13T20:14:16.091Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:14:41.045Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:15:11.567Z [my-bank-api] error:  PUT /account -  Name e Balance são obrigatórios
+2020-10-13T20:15:17.250Z [my-bank-api] info: PUT /account - {"id":2,"name":"Bernardo","balance":302541}
+2020-10-13T20:15:23.114Z [my-bank-api] info: GET /account
+2020-10-13T20:15:56.750Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:16:04.176Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:16:44.939Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:16:47.053Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:16:56.620Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:17:13.620Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:17:22.206Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:17:33.094Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:17:51.793Z [my-bank-api] info: API Started and File Found!
+2020-10-13T20:18:22.296Z [my-bank-api] info: API Started and File Found!
