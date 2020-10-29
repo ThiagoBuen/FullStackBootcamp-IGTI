@@ -119,10 +119,10 @@ async function deleteGrade(grade) {
   const response = await axios.delete(`${API_URL}/${grade.id}`);
   return response.data;
 }
-/*
+
 async function getValidationFromGradeType(gradeType) {
   const gradeValidation = GRADE_VALIDATION.find((item) => {
-    item.gradeType === gradeType;
+    return item.gradeType === gradeType;
   });
 
   const { minValue, maxValue } = gradeValidation;
@@ -131,12 +131,12 @@ async function getValidationFromGradeType(gradeType) {
     minValue: minValue,
     maxValue: maxValue,
   };
-}*/
+}
 
 export {
   getAllGrades,
   insertGrade,
   updateGrade,
   deleteGrade,
-  //getValidationFromGradeType,
+  getValidationFromGradeType,
 };

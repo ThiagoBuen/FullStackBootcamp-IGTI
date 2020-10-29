@@ -36,8 +36,12 @@ export default function GradeControl({ grades, onDelete, onPersist }) {
   });
 
   const handleActionClick = (id, type) => {
-    console.log(id);
-    console.log(type);
+    const grade = grades.find((grade) => grade.id === id);
+    if (type === 'delete') {
+      onDelete(grade);
+      return;
+    }
+    onPersist(grade);
   };
 
   return (
