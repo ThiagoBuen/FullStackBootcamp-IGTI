@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const url =
-  'mongodb+srv://dbIGTI:bootcampIGTI@cluster0.i0ege.mongodb.net/grades?retryWrites=true&w=majority';
+  'mongodb+srv://<db>:<password>@cluster0.i0ege.mongodb.net/grades?retryWrites=true&w=majority';
 
 const studentSchema = mongoose.Schema({
   name: { type: String, require: true },
