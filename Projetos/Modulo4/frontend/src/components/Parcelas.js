@@ -1,42 +1,28 @@
 import React, { useState } from 'react';
 
-export default function Parcelas({ montante, juros, periodo }) {
-  console.log(montante);
-  console.log(juros);
-  console.log(periodo);
+export default function Parcelas({ children: parcela }) {
+  const { id, jurosAtual, rendimentoAtual, montanteAtual } = parcela;
 
-  const handleInvestimentos = () => {
-    setResultados([]);
-    let jurosAtual = 0;
-    let rendimentoAtual = 0;
-    let montanteAtual = 0;
-    console.log(periodoInicial);
-    console.log(jurosInicial);
-    console.log(capitalInicial);
+  console.log(id);
 
-    for (let i = 1; i < periodoInicial; i++) {
-      jurosAtual = (1 + jurosInicial) ** i;
-      rendimentoAtual = capitalInicial * jurosAtual;
-      montanteAtual = rendimentoPassado + rendimentoAtual;
-      rendimentoPassado = montanteAtual;
+  return (
+    <div className="col s6 m3 l2">
+      <div>
+        <span>
+          <strong>{id}</strong>
+        </span>
 
-      setResultados([
-        ...resultados,
-        {
-          id: i,
-          jurosAtual: jurosAtual.toFixed(2),
-          rendimentoAtual: rendimentoAtual.toFixed(2),
-          montanteAtual: montanteAtual.toFixed(2),
-        },
-      ]);
+        <div>
+          <span>
+            <strong>{montanteAtual}</strong>
+          </span>
 
-      investimentoToCreate.push({
-        id: i,
-        jurosAtual: jurosAtual.toFixed(2),
-        rendimentoAtual: rendimentoAtual.toFixed(2),
-        montanteAtual: montanteAtual.toFixed(2),
-      });
-    }
-  };
-  return <div>TEste tabela</div>;
+          <span>
+            <strong>{rendimentoAtual}</strong>
+          </span>
+          <span>{jurosAtual}</span>
+        </div>
+      </div>
+    </div>
+  );
 }
